@@ -1,0 +1,103 @@
+#heroSection {
+    font-family: 'Mukta Vaani', sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(rgba(50, 83, 98, 0.9), rgba(50, 83, 98, 0.9)), url('../../img/bg.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .content {
+        margin-top: 4rem;
+        h2 {
+            text-transform: capitalize;
+            color: #fff;
+            font-size: 48px;
+            letter-spacing: 1px;
+            line-height: 1;
+            font-weight: 600;
+        }
+        p {
+            font-size: 1rem;
+            color: #ddd;
+            font-weight: 200;
+        }
+        .text {
+            margin-left: 18%;
+            h3 {
+                letter-spacing: 1.5px;
+                line-height: 1.2;
+                font-size: 25px;
+                color: #ddd;
+                font-weight: 400;
+            }
+        }
+    }
+    // btn 
+    .joinBtn {
+        margin-top: 2rem;
+    }
+    .joinBtn .jonNowBtn {
+        background: #1D8D8D;
+        color: rgba(255, 255, 255, 09);
+        padding: 5px 15px;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        transition: all linear .2s;
+        -webkit-transition: all linear .2s;
+        -moz-transition: all linear .2s;
+        -ms-transition: all linear .2s;
+        -o-transition: all linear .2s;
+    }
+    .joinBtn .jonNowBtn:hover {
+        background: #1a8383;
+    }
+    .heroImg {
+        cursor: pointer;
+        margin-top: 30%;
+    }
+}
+
+// for lightbox plugin 
+.SRLNextButton,
+.SRLPrevButton {
+    display: none;
+}
+
+// ==== 1200px ==== 
+@media (max-width: 1200px) {
+    #heroSection {
+        height: 60vh;
+    }
+}
+
+// ==== 991px ==== 
+@media (max-width: 991px) {
+    #heroSection {
+        height: 50vh;
+        padding: 80px 0;
+    }
+    #heroSection .content h2 {
+        margin-left: 2.7em;
+    }
+}
+
+// ==== 767px ==== 
+@media (max-width: 767px) {
+    #heroSection {
+        padding: 50px 0;
+    }
+    #heroSection .content h2 {
+        margin-left: 0;
+        margin: 15px auto;
+    }
+}
+
+// ==== 575px ====
+@media (max-width: 575px) {
+    #heroSection {
+        height: 80vh;
+        padding: 70px 0;
+    }
+}

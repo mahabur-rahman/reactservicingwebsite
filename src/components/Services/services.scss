@@ -1,0 +1,65 @@
+#services {
+    font-family: 'Mukta Vaani', sans-serif;
+    overflow: hidden;
+    padding: 70px 0;
+    .servicesTitle {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 1.4;
+        color: #191919;
+        margin-bottom: 1.5rem;
+    }
+    .card {
+        .card-body {
+            .title {
+                font-size: 1.3rem;
+                line-height: 1.3;
+                font-weight: 500;
+                color: #000;
+            }
+            .name {
+                font-weight: 400;
+                font-size: 1em;
+                color: #000;
+                opacity: .7;
+                margin-left: .3rem;
+            }
+        }
+        .card-footer {
+            background: rgba(49, 198, 203, 0.1);
+        }
+        svg {
+            color: #a5a176;
+            font-size: .9rem;
+        }
+        .star {
+            margin-top: 3px;
+        }
+        p {
+            text-transform: uppercase;
+        }
+    }
+    // view more btn 
+    .viewBtn {
+        color: #fff;
+        padding: 8px 30px;
+        outline: none;
+        border: 1px solid #369D9A;
+        background: #369D9A;
+        letter-spacing: 1px;
+    }
+    .viewBtn:focus {
+        box-shadow: none;
+    }
+    .viewBtn:hover {
+        opacity: .9;
+        background: #369D9A;
+    }
+}
+
+// ==== 1200px ==== 
+@media (max-width: 1200px) {
+    #services {
+        padding: 100px 0;
+    }
+}

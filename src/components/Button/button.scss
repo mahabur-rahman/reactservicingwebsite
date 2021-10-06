@@ -1,0 +1,31 @@
+#registerBtn {
+    button {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        width: 25%;
+        height: auto;
+        padding: 10px 0;
+        background: #369D9A;
+        outline: none;
+        border: 1px solid #369D9A;
+        font-weight: 400;
+        transition: .2s;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -ms-transition: .2s;
+        -o-transition: .2s;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    .btn:hover {
+        opacity: .9;
+        background: #369D9A;
+    }
+    button:focus {
+        box-shadow: none;
+    }
+}

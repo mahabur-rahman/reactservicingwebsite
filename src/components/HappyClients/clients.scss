@@ -1,0 +1,59 @@
+#clients {
+    overflow: hidden;
+    padding: 80px 0;
+    .clientsPart {
+        h3 {
+            font-size: 35px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        p {
+            letter-spacing: .5px;
+            margin-top: 15px;
+            margin-bottom: 35px;
+            font-weight: 300;
+            font-size: 1.2rem;
+        }
+        .textColor {
+            color: #369D9A;
+        }
+    }
+    .card {
+        margin-top: 1em;
+        height: 300px;
+        position: relative;
+        border: none;
+        outline: none;
+        .card-title.h5 {
+            color: #369D9A;
+            margin-top: 1.3em;
+            font-size: 3.5em;
+        }
+        .card-text {
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 1.5em;
+        }
+        // before 
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0px;
+            background: #369D9A;
+            height: 3px;
+            width: 0;
+            transition: .4s;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -ms-transition: .4s;
+            -o-transition: .4s;
+        }
+        &:hover::before {
+            width: 100%;
+        }
+    }
+}
+
+// ===== 1199px =====
+@media (max-width: 1199px) {}

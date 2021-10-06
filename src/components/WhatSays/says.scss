@@ -1,0 +1,70 @@
+#whatSays {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    h3 {
+        margin-bottom: 1.5em;
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .card {
+        padding-bottom: 2em;
+        position: relative;
+        text-align: center;
+        .card-img-top {
+            position: absolute;
+            top: 55%;
+            left: -20%;
+        }
+        .quote {
+            margin: 0 10px;
+            font-size: 2em;
+            opacity: 0.1;
+            position: absolute;
+            top: 10%;
+            left: 0;
+        }
+        p {
+            margin-top: 3em;
+            opacity: .8;
+            color: #000;
+            letter-spacing: 1px;
+            font-weight: 100;
+        }
+        .star {
+            color: #F6BC3E;
+        }
+        .card-title {
+            color: #369D9A;
+            margin-top: 10px;
+            text-transform: capitalize;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    }
+    // for swiper 👍
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+}

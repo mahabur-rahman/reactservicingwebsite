@@ -1,0 +1,51 @@
+#contactUs {
+    overflow: hidden;
+    padding: 150px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(54, 72, 85, 0.7)), url('../../img//b4.jpg') no-repeat center center / cover;
+    .getInTouch {
+        h2 {
+            text-transform: capitalize;
+            font-size: 35px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #fff;
+        }
+        p {
+            font-size: 1rem;
+            color: #ddd;
+            font-weight: 300;
+        }
+    }
+    .card {
+        margin-top: 1em;
+        .card-body {
+            span.phone {
+                color: #369D9A;
+                font-size: 1.5em;
+            }
+            .card-title {
+                font-weight: 600;
+                text-transform: capitalize;
+                margin: 10px 0;
+                font-size: 25px;
+                color: #111;
+                letter-spacing: 1px;
+            }
+            .card-text {
+                font-size: 14px;
+                color: #000;
+                opacity: .8;
+            }
+            .takeActionBtn {
+                color: #369D9A;
+                margin-top: .5em;
+                outline: none;
+                border: none;
+                background: transparent;
+            }
+            .takeActionBtn:focus {
+                box-shadow: none;
+            }
+        }
+    }
+}
