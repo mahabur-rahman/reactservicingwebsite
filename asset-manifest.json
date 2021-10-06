@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/reactservicingwebsite/static/css/main.4a515a72.chunk.css",
+    "main.js": "/reactservicingwebsite/static/js/main.eb9b7361.chunk.js",
+    "main.js.map": "/reactservicingwebsite/static/js/main.eb9b7361.chunk.js.map",
+    "runtime-main.js": "/reactservicingwebsite/static/js/runtime-main.54ad8c29.js",
+    "runtime-main.js.map": "/reactservicingwebsite/static/js/runtime-main.54ad8c29.js.map",
+    "static/css/2.eb255a81.chunk.css": "/reactservicingwebsite/static/css/2.eb255a81.chunk.css",
+    "static/js/2.7afd4ef0.chunk.js": "/reactservicingwebsite/static/js/2.7afd4ef0.chunk.js",
+    "static/js/2.7afd4ef0.chunk.js.map": "/reactservicingwebsite/static/js/2.7afd4ef0.chunk.js.map",
+    "index.html": "/reactservicingwebsite/index.html",
+    "static/css/2.eb255a81.chunk.css.map": "/reactservicingwebsite/static/css/2.eb255a81.chunk.css.map",
+    "static/css/main.4a515a72.chunk.css.map": "/reactservicingwebsite/static/css/main.4a515a72.chunk.css.map",
+    "static/js/2.7afd4ef0.chunk.js.LICENSE.txt": "/reactservicingwebsite/static/js/2.7afd4ef0.chunk.js.LICENSE.txt",
+    "static/media/b2.5aa78ea0.jpg": "/reactservicingwebsite/static/media/b2.5aa78ea0.jpg",
+    "static/media/b3.343e744a.jpg": "/reactservicingwebsite/static/media/b3.343e744a.jpg",
+    "static/media/contact.scss": "/reactservicingwebsite/static/media/b4.600ea5aa.jpg",
+    "static/media/hero.scss": "/reactservicingwebsite/static/media/bg.04a8d6b3.svg",
+    "static/media/hero.552da8b8.svg": "/reactservicingwebsite/static/media/hero.552da8b8.svg",
+    "static/media/join.636d67bc.svg": "/reactservicingwebsite/static/media/join.636d67bc.svg",
+    "static/media/logo.5433fa72.png": "/reactservicingwebsite/static/media/logo.5433fa72.png",
+    "static/media/registercomp.scss": "/reactservicingwebsite/static/media/n6.a9bdd94e.jpg",
+    "static/media/profile.bde4680d.svg": "/reactservicingwebsite/static/media/profile.bde4680d.svg",
+    "static/media/profile1.798c9314.svg": "/reactservicingwebsite/static/media/profile1.798c9314.svg",
+    "static/media/profile2.478a0c98.svg": "/reactservicingwebsite/static/media/profile2.478a0c98.svg",
+    "static/media/profile3.1444e12f.svg": "/reactservicingwebsite/static/media/profile3.1444e12f.svg",
+    "static/media/profile4.bde4680d.svg": "/reactservicingwebsite/static/media/profile4.bde4680d.svg",
+    "static/media/s1.948bae47.svg": "/reactservicingwebsite/static/media/s1.948bae47.svg",
+    "static/media/s2.6b0ac92b.svg": "/reactservicingwebsite/static/media/s2.6b0ac92b.svg",
+    "static/media/s3.a9e31450.svg": "/reactservicingwebsite/static/media/s3.a9e31450.svg",
+    "static/media/s4.e9497681.svg": "/reactservicingwebsite/static/media/s4.e9497681.svg",
+    "static/media/sfour.017cdced.svg": "/reactservicingwebsite/static/media/sfour.017cdced.svg",
+    "static/media/sone.ae63fac0.svg": "/reactservicingwebsite/static/media/sone.ae63fac0.svg",
+    "static/media/sthree.c3721783.svg": "/reactservicingwebsite/static/media/sthree.c3721783.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54ad8c29.js",
+    "static/css/2.eb255a81.chunk.css",
+    "static/js/2.7afd4ef0.chunk.js",
+    "static/css/main.4a515a72.chunk.css",
+    "static/js/main.eb9b7361.chunk.js"
+  ]
+}
